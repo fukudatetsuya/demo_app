@@ -49,3 +49,10 @@ group :production do
   gem 'pg', '0.12.2'
 end
 #add-ed 2013/10/22
+
+#add-st 2013/10/28
+group :test do
+  gem "rspec"
+  gem "rspec-rails"
+end
+#add-ed 2013/10/28
